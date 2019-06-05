@@ -17,7 +17,8 @@ class BookInfoAdmin(admin.ModelAdmin):
     list_display =('title','pub_date')
     list_filter =('title','pub_date')
     list_per_page =20
-    inlines = [HereInfoInlines]
+
+    inlines = [HereInfoInlines] #关联,书和英雄关联,创建书,就同时创建英雄.
 # 在注册模型时，注册该模型的后台管理类 通过管理类重写后台
 admin.site.register(BookInfo,BookInfoAdmin)
 

@@ -14,12 +14,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 """
-路由
+项目路由
 demo1下方的urls为项目总路由
 """
 from django.contrib import admin
 from django.urls import path
 
+from django.conf.urls import url,include
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # 这项目路由下添加 项目应用booktest的路由然后在项目应用下建立路由文件(urls.py)
+    #进入应用下新建的urls.py,引入views.py 的视图方法。
+
+    url('booktest/',include('booktest.urls'))
 ]

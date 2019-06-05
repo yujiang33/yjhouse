@@ -15,14 +15,12 @@
       <change afterPath="$PROJECT_DIR$/demo2/demo2/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo2/demo2/wsgi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo2/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yjhouse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yjhouse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/booktest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/booktest/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/booktest/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/booktest/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/booktest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/booktest/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/booktest/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo1/demo1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/demo1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/demo1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/demo1/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +34,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/demo1/booktest/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1300">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="244">
+              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,20 +48,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo1/booktest/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="108">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo1/booktest/admin.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/template/booktest/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#40#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -68,20 +66,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo1/demo1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="468">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo1/template/booktest/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo1/booktest/migrations/0001_initial.py">
+        <entry file="file://$PROJECT_DIR$/demo1/booktest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="252">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding>
-                <element signature="e#49#89#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/template/booktest/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -92,6 +108,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -109,19 +126,27 @@
         <option value="$PROJECT_DIR$/task.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/fun.py" />
-        <option value="$PROJECT_DIR$/demo1/demo1/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/demo1/booktest/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/demo1/booktest/models.py" />
-        <option value="$PROJECT_DIR$/demo1/demo1/settings.py" />
+        <option value="$PROJECT_DIR$/demo1/demo1/urls.py" />
         <option value="$PROJECT_DIR$/demo1/booktest/admin.py" />
+        <option value="$PROJECT_DIR$/demo1/template/list.html" />
+        <option value="$PROJECT_DIR$/demo1/template/detail.html" />
+        <option value="$PROJECT_DIR$/demo1/demo1/settings.py" />
+        <option value="$PROJECT_DIR$/demo1/template/index.html" />
+        <option value="$PROJECT_DIR$/demo1/template/booktest/index.html" />
+        <option value="$PROJECT_DIR$/demo1/booktest/views.py" />
+        <option value="$PROJECT_DIR$/demo1/template/booktest/list.html" />
+        <option value="$PROJECT_DIR$/demo1/booktest/urls.py" />
+        <option value="$PROJECT_DIR$/demo1/template/booktest/detail.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="277" />
-    <option name="width" value="1006" />
-    <option name="height" value="713" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="165" />
+    <option name="width" value="1151" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -151,14 +176,25 @@
               <item name="yjhouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="yjhouse" type="462c0819:PsiDirectoryNode" />
               <item name="demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="booktest" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yjhouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="yjhouse" type="462c0819:PsiDirectoryNode" />
               <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yjhouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yjhouse" type="462c0819:PsiDirectoryNode" />
               <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="booktest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yjhouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yjhouse" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yjhouse" type="b2602c69:ProjectViewProjectNode" />
@@ -171,9 +207,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yj\yjhouse\demo1\template\booktest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,24 +310,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559698639064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="django项目&#10;数据库&#10;后台管理">
+      <created>1559704437552</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559704437553</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="165" y="0" width="1151" height="756" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59016395" visible="true" weight="0.02232143" />
-      <window_info id="Structure" order="1" sideWeight="0.40983605" side_tool="true" visible="true" weight="0.02232143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81672025" visible="true" weight="0.20125785" />
+      <window_info id="Structure" order="1" sideWeight="0.18327974" side_tool="true" visible="true" weight="0.20125785" />
       <window_info id="Favorites" order="2" sideWeight="0.5025381" side_tool="true" weight="0.1688988" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4409836" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44041452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.116838485" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.88906753" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3295082" />
@@ -351,22 +401,13 @@
     <MESSAGE value="django项目" />
     <MESSAGE value="django项目  数据" />
     <MESSAGE value="django项目&#10;数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="django项目&#10;数据库" />
+    <MESSAGE value="django项目&#10;数据库&#10;后台管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="django项目&#10;数据库&#10;后台管理" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/task.py" />
     <entry file="file://$PROJECT_DIR$/fun.py" />
-    <entry file="file://$PROJECT_DIR$/demo1/demo1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#629#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo1/booktest/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -383,10 +424,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="864" selection-start-line="864" selection-end-line="864" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/DjangoWeb/env1/Lib/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="278" column="6" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/demo1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo1/booktest/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#49#89#0" expanded="true" />
           </folding>
@@ -400,34 +458,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/threading.py">
+    <entry file="file://$PROJECT_DIR$/demo1/booktest/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="864" selection-start-line="864" selection-end-line="864" />
+        <state relative-caret-position="208">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="e#40#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/booktest/models.py">
+    <entry file="file://$PROJECT_DIR$/demo1/demo1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="286">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="e#661#693#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo1/demo1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="468">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/booktest/admin.py">
+    <entry file="file://$PROJECT_DIR$/demo1/booktest/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="108">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/booktest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
-            <element signature="e#40#72#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/template/booktest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/booktest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/template/booktest/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/template/booktest/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
