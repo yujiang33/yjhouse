@@ -1,3 +1,7 @@
+"""
+忽略文件
+"""
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -54,7 +58,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
+#db.sqlite3    注释数据库，不然提交不上去本地仓库
 
 # Flask stuff:
 instance/
