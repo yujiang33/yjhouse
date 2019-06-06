@@ -1,0 +1,10 @@
+div.container{
+   margin:0 auto;
+   width:1100px;
+   background-color:yellow;
+}
+
+div.container div.ads.{
+    margin:0 auto;
+    width:750px;
+}

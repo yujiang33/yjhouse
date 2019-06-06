@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.http import HttpResponseRedirect
 from .models import BookInfo,HereInfo
 
 from django.template import loader
@@ -10,6 +11,7 @@ MVT中的V编写视图
 #写视图函数
 # 视图函数由系统调用,系统调用时给req赋值
 def index(req):
+    #简写模板。。
     # return HttpResponse(f"这里是首页{id}")
     temp =loader.get_template('booktest/index.html')
     res= temp.render({"username":"余江","gender":"男"})
@@ -34,4 +36,9 @@ def detail(req,id):
     temp = loader.get_template('booktest/detail.html')
     res = temp.render({'book':book})
     return HttpResponse(res)
+
+def deletebook(req,id):
+    b= BookInfo.objests.get(pk=id)
+    b.delete()
+    return HttpResponseRedirect("/list/")
 

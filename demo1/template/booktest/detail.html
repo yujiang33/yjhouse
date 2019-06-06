@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>详情表</title>
+    <link rel="stylesheet" href="/static/css/main.css">
 </head>
 <body>
-    <h2>详情表</h2>
+<div class="container">
+        <h2>详情表</h2>
     <h3>书名:{{book.title}}</h3>
     角色列表:
     <ul>
@@ -15,7 +17,7 @@
     </ul>
 
     <hr>
-    <a href="/booktest/list/">返回列表页</a>
-
+    <a href="{% url 'booktest:list'  %}">返回列表页</a>
+</div>
 </body>
 </html>

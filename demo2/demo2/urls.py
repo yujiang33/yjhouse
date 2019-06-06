@@ -1,4 +1,4 @@
-"""demo1 URL Configuration
+"""demo2 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -13,20 +13,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-"""
-项目路由
-demo1下方的urls为项目总路由
-"""
 from django.contrib import admin
 from django.urls import path
 
-from django.conf.urls import url,include
-#将项目路由引入到应用路由
 urlpatterns = [
-
-    # 这项目路由下添加 项目应用booktest的路由然后在项目应用下建立路由文件(urls.py)
-    #进入应用下新建的urls.py,引入views.py 的视图方法。
     path('admin/', admin.site.urls),
-    url('',include('booktest.urls',namespace='booktest'))
-
 ]
