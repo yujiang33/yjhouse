@@ -37,8 +37,15 @@ def detail(req,id):
     res = temp.render({'book':book})
     return HttpResponse(res)
 
+#删除英雄
+def deletehero(req,id):
+    hero= HereInfo.objects.get(pk=id)
+    hero.delete()
+    return HttpResponseRedirect('/detail/%s/'%(hero.book.id,))  #重定向删除完消失删除的角色，还在详情页。
+
+#删除书方法
 def deletebook(req,id):
-    b= BookInfo.objests.get(pk=id)
+    b= BookInfo.objects.get(pk=id)
     b.delete()
     return HttpResponseRedirect("/list/")
 
