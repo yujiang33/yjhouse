@@ -12,11 +12,11 @@
     角色列表:
     <ul>
         {% for hero in book.hereinfo_set.all %}
-            <li> {{hero.name}}--{{hero.content}}<a href="{% url 'booktest:deletehero' hero.id%}"> 删除</a></li>
+            <li> {{hero.name}}--{{hero.content}}<a href="{% url 'booktest:deletehero' hero.id %}"> 删除</a></li>
         {% endfor %}
     </ul>
-    <a href="#">添加角色</a>
-    <br>
+    <a href="{% url 'booktest:addhero' book.id %}">添加角色</a>
+    <br><br>
 
     <a href="{% url 'booktest:list' %}">返回列表页</a>
 </div>
