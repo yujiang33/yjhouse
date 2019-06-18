@@ -11,8 +11,12 @@
         <h2>添加角色</h2>
         <form action="{% url 'booktest:addhero' book.id %}" method="post">
             角色名:<input type="text" name="heroname">
-            <br>
             绝招:<input type="text" name="herocontent">
+            性别:<br><br><br>
+            <select name="sex">
+                <option value="man">男</option>
+                <option value="woman">女</option>
+            </select>
             <br>
             <input type="submit" value="提交">
 

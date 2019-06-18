@@ -1,11 +1,14 @@
-from django.shortcuts import render,get_object_or_404,redirect,reverse
+from django.shortcuts import render,get_object_or_404,redirect,reverse,HttpResponse
 from django.views.generic import View
 from .models import *  #引入所有模型类
 from comments.forms import CommentForm #引入表单
 from comments.models import Comment
 from django.core.paginator import Paginator
 import markdown  #引入markdown
+from django.core.mail import send_mail,EmailMultiAlternatives
+from django.views.decorators.cache import cache_page  #引入缓存装饰器
 # Create your views here.
+
 
 class IndexView(View):
     def get(self,req):
@@ -17,6 +20,19 @@ class IndexView(View):
         page = paginator.get_page(pagenum)
         page.path = "/"
         return render(req,"blog/index.html",{'page':page})   #传{'page':page}        local(),包括所有局部变量所以,影响性能
+
+@cache_page(30)
+def index(req):
+    articles = Article.objects.all()
+    paginator = Paginator(articles, 2)
+    pagenum = req.GET.get('page')
+    pagenum = 1 if pagenum == None else pagenum
+    page = paginator.get_page(pagenum)
+    page.path = "/"
+    return render(req, "blog/index.html", {'page': page})
+
+
+
 
 class SingleView(View):
     def get(self,req,id):
@@ -89,6 +105,42 @@ class TagsView(View):
         page = paginator.get_page(pagenum)
         page.path = "/tags/%s/"%(id,)
         return render(req,"blog/index.html",{'page':page})
+
+class ContactView(View):
+    def get(self,req):
+        return render(req,'blog/contact.html')
+
+    def post(self,req):
+        email =req.POST.get('email')
+        message=req.POST.get('message')
+
+        info=MessageInfo()
+        info.email=email
+        info.info=message
+        info.save()
+        return HttpResponse('建议成功')
+
+
+
+class SendMailView(View):
+    def get(self,req):
+        try:
+            mail=EmailMultiAlternatives(subject="测试邮件HTML格式", body="<h1>  <a href = 'http://www.baidu.com'> 百度 </a>  </h1> ", from_email= settings.DEFAULT_FROM_EMAIL,to= ["18137128152@163.com", "zhangzhaoyu@qikux.com"] )
+            mail.content_subtype='html'
+            mail.send()
+            return HttpResponse('发送成功')
+        except:
+            return HttpResponse('发送失败')
+
+
+
+
+
+
+
+
+
+
 
 
 

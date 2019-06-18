@@ -36,3 +36,33 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Ads(models.Model):
+    """
+    轮播图
+    """
+    pic = models.ImageField(upload_to="ads")
+    desc = models.CharField(max_length=30)
+    url = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.desc
+
+
+from tinymce.models import HTMLField
+
+class MessageInfo(models.Model):
+    email= models.EmailField()
+    # info= models.TextField()
+    info=HTMLField()      #TextField 不具备格式,使用富文本替换.此时是Html格式富文本.
+
+    def __str__(self):
+        return self.email
+
+
+
+
+
+
+

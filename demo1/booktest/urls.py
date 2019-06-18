@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from.views import index,list,detail, deletehero,deletebook,addhero
+from.views import index,list,detail, deletehero,deletebook,addhero,addbook
 app_name='booktest'
 
 #将视图函数加入这
@@ -15,4 +15,6 @@ urlpatterns =[
     url(r'^addhero/(\d+)/$',addhero,name='addhero'),
 #删除书相关
     url(r'^deletebook/(\d+)/$',deletebook,name='deletebook'),
+#添加书籍
+    url(r'^addbook/(\d+)/$',addbook, name='addbook'),
 ]

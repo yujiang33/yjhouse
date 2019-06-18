@@ -39,8 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'comments',
+    'tinymce',    #将富文本注册这 注册应用，可以找到应用下文件夹
+    'haystack',
 ]
-
+#中间件  扩展通用(每一次请求)功能
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -123,3 +125,46 @@ USE_TZ = True
 # 配置 动态文件
 STATIC_URL = '/static/'
 STATICFILES_DIRS =[os.path.join(BASE_DIR,"static")]
+# 配置轮播图,,在static下新建media文件夹,将图片储存下来,数据库储存图片路径
+MEDIA_ROOT= os.path.join(BASE_DIR,'static/media')
+
+#需要安装pip install django-tinymce 然后富文本配置项目,非富多彩的文本,
+TINYMCE_DEFAULT_CONFIG={
+    'theme':'advanced',
+    'width':600,
+    'heigth':400,
+}
+
+
+
+# 邮件配置
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True #是否使用TLS安全传输协议(用于在两个通信应用程序之间提供保密性和数据完整性。)
+EMAIL_USE_SSL = False #是否使用SSL加密，qq企业邮箱要求使用
+EMAIL_HOST = 'smtp.163.com' #发送邮件的邮箱 的 SMTP服务器，这里用了163邮箱
+EMAIL_PORT = 25 #发件箱的SMTP服务器端口
+EMAIL_HOST_USER = '18137128152@163.com' #发送邮件的邮箱地址
+EMAIL_HOST_PASSWORD = 'qikuedu'
+DEFAULT_FROM_EMAIL = 'zzy0371 <18137128152@163.com>'
+
+
+#使用redis缓存配置
+CACHES={
+    "default":{
+        "BACKEND":"redis_cache.cache.RedisCache",
+        "LOCATION":"localhost:6379",
+        "TIMEOUT":5,    #默认时间，以秒为单位
+    },
+}
+
+
+#配置搜素信息
+
+HAYSTACK_CONNECTIONS={
+    'default':{
+        'ENGINE':'blog.whoosh_cn_backend.WhooshEngine',
+        'PATH':os.path.join(BASE_DIR,'whoosh_index'),
+    }
+}
+HAYSTACK_SEARCH_RESULTS_PER_PAGE=10
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'

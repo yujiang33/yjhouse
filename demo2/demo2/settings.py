@@ -55,7 +55,9 @@ ROOT_URLCONF = 'demo2.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        #找到项目根目录下的template
         'DIRS': [os.path.join(BASE_DIR,"template")],
+        # 在每一个app下方查找template
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
