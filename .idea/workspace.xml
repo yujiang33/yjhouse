@@ -1,40 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96faef62-d886-4fc3-aeed-9156ce0ae770" name="Default Changelist" comment="demo2&#10;投票项目&#10;session">
-      <change afterPath="$PROJECT_DIR$/demo1/template/booktest/addbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/template/polls/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/template/polls/login_regist.html" afterDir="false" />
+    <list default="true" id="96faef62-d886-4fc3-aeed-9156ce0ae770" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/booktest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/booktest/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/booktest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/booktest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/booktest/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/template/booktest/addhero.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/template/booktest/addhero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/template/booktest/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/template/booktest/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo1/template/booktest/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/template/booktest/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/demo2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/demo2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/polls/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/template/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/template/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/template/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/template/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/template/polls/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/template/polls/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/template/polls/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/blog/templatetags/make_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/blog/templatetags/make_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/demo3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/demo3/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/template/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/template/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/template/blog/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/template/blog/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/template/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/template/blog/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +48,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo3/demo3/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo3/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/require.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,15 +91,6 @@
               <folding>
                 <element signature="n#article#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo3/template/search/indexes/blog/article_text.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -486,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560520554286</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="demo2&#10;投票项目&#10;session">
+      <created>1560842541247</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560842541247</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -503,7 +483,8 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.11867089" side_tool="true" weight="0.14348462" />
       <window_info id="Favorites" order="1" sideWeight="0.12885663" side_tool="true" weight="0.21949404" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.79886687" visible="true" weight="0.27232143" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.79886687" visible="true" weight="0.27827382" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.04784689" />
@@ -515,7 +496,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073206" side_tool="true" weight="0.047468353" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.27540985" />
       <window_info anchor="bottom" auto_hide="true" x="11" y="197" width="1344" height="333" id="Python Console" order="10" weight="0.70163935" />
-      <window_info anchor="bottom" auto_hide="true" x="11" y="158" width="1344" height="412" id="Terminal" order="11" weight="0.04918033" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="11" y="158" width="1344" height="412" id="Terminal" order="11" visible="true" weight="0.33114755" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -602,28 +583,11 @@
     <MESSAGE value="django项目&#10;数据库&#10;模块&#10;页面跳转" />
     <MESSAGE value="django项目&#10;数据库&#10;重定向" />
     <MESSAGE value="django项目&#10;数据库&#10;重定向&#10;添加角色" />
-    <MESSAGE value="demo2&#10;投票项目&#10;session" />
     <MESSAGE value="个人博客项目&#10;6.14" />
-    <option name="LAST_COMMIT_MESSAGE" value="个人博客项目&#10;6.14" />
+    <MESSAGE value="demo2&#10;投票项目&#10;session" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo2&#10;投票项目&#10;session" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo3/comments/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/demo1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2232">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo1/booktest/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-720">
@@ -971,6 +935,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/require.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
