@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜素结果</title>
+</head>
+<body>
+    <h1>搜素结果:</h1>
+    <h2>搜索关键字:-->{{ query }}</h2>
+    <br>
+    <ul>
+        {% for b in page.object_list %}
+            <li>
+                <h3><a href="{% url 'sport:single' b.object.id %}">{{b.object.title}}</a></h3>
+            </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
